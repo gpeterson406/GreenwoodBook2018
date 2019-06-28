@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Simple linear regression inference | Intermediate Statistics with R</title>
-  <meta name="description" content="Chapter 4 Simple linear regression inference | Intermediate Statistics with R" />
+  <title>Chapter 7 Simple linear regression inference | Intermediate Statistics with R</title>
+  <meta name="description" content="Chapter 7 Simple linear regression inference | Intermediate Statistics with R" />
   <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Simple linear regression inference | Intermediate Statistics with R" />
+  <meta property="og:title" content="Chapter 7 Simple linear regression inference | Intermediate Statistics with R" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="gpeterson406/Greenwood_Book" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Simple linear regression inference | Intermediate Statistics with R" />
+  <meta name="twitter:title" content="Chapter 7 Simple linear regression inference | Intermediate Statistics with R" />
   
   
   
@@ -129,110 +129,122 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Cover</a></li>
-<li class="chapter" data-level="" data-path="acknowledgments.html"><a href="acknowledgments.html"><i class="fa fa-check"></i>Acknowledgments</a><ul>
-<li class="chapter" data-level="0.1" data-path="acknowledgments.html"><a href="acknowledgments.html#section1-5"><i class="fa fa-check"></i><b>0.1</b> Summary of important R code</a></li>
-<li class="chapter" data-level="0.2" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-3"><i class="fa fa-check"></i><b>0.2</b> Models, hypotheses, and permutations for the two sample mean situation</a></li>
-<li class="chapter" data-level="0.3" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-4"><i class="fa fa-check"></i><b>0.3</b> Permutation testing for the two sample mean situation</a></li>
-<li class="chapter" data-level="0.4" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-5"><i class="fa fa-check"></i><b>0.4</b> Hypothesis testing (general)</a></li>
-<li class="chapter" data-level="0.5" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-6"><i class="fa fa-check"></i><b>0.5</b> Connecting randomization (nonparametric) and parametric tests</a></li>
-<li class="chapter" data-level="0.6" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-7"><i class="fa fa-check"></i><b>0.6</b> Second example of permutation tests</a></li>
-<li class="chapter" data-level="0.7" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-8"><i class="fa fa-check"></i><b>0.7</b> Confidence intervals and bootstrapping</a></li>
-<li class="chapter" data-level="0.8" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-9"><i class="fa fa-check"></i><b>0.8</b> Bootstrap confidence intervals for difference in GPAs</a></li>
-<li class="chapter" data-level="0.9" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-10"><i class="fa fa-check"></i><b>0.9</b> Chapter summary</a></li>
-<li class="chapter" data-level="0.10" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-11"><i class="fa fa-check"></i><b>0.10</b> Summary of important R code</a></li>
-<li class="chapter" data-level="0.11" data-path="acknowledgments.html"><a href="acknowledgments.html#section2-12"><i class="fa fa-check"></i><b>0.11</b> Practice problems</a></li>
-<li class="chapter" data-level="0.12" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-1"><i class="fa fa-check"></i><b>0.12</b> Situation</a></li>
-<li class="chapter" data-level="0.13" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-2"><i class="fa fa-check"></i><b>0.13</b> Linear model for One-Way ANOVA (cell-means and reference-coding)</a></li>
-<li class="chapter" data-level="0.14" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-3"><i class="fa fa-check"></i><b>0.14</b> One-Way ANOVA Sums of Squares, Mean Squares, and F-test</a></li>
-<li class="chapter" data-level="0.15" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-4"><i class="fa fa-check"></i><b>0.15</b> ANOVA model diagnostics including QQ-plots</a></li>
-<li class="chapter" data-level="0.16" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-5"><i class="fa fa-check"></i><b>0.16</b> Guinea pig tooth growth One-Way ANOVA example</a></li>
-<li class="chapter" data-level="0.17" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-6"><i class="fa fa-check"></i><b>0.17</b> Multiple (pair-wise) comparisons using Tukey’s HSD and the compact letter display</a></li>
-<li class="chapter" data-level="0.18" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-7"><i class="fa fa-check"></i><b>0.18</b> Pair-wise comparisons for Prisoner Rating data</a></li>
-<li class="chapter" data-level="0.19" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-8"><i class="fa fa-check"></i><b>0.19</b> Chapter summary</a></li>
-<li class="chapter" data-level="0.20" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-9"><i class="fa fa-check"></i><b>0.20</b> Summary of important R code</a></li>
-<li class="chapter" data-level="0.21" data-path="acknowledgments.html"><a href="acknowledgments.html#section3-10"><i class="fa fa-check"></i><b>0.21</b> Practice problems</a></li>
+<li class="chapter" data-level="" data-path="acknowledgments.html"><a href="acknowledgments.html"><i class="fa fa-check"></i>Acknowledgments</a></li>
+<li class="chapter" data-level="1" data-path="chapter1.html"><a href="chapter1.html"><i class="fa fa-check"></i><b>1</b> Preface</a><ul>
+<li class="chapter" data-level="1.1" data-path="chapter1.html"><a href="chapter1.html#section1-1"><i class="fa fa-check"></i><b>1.1</b> Overview of methods</a></li>
+<li class="chapter" data-level="1.2" data-path="chapter1.html"><a href="chapter1.html#section1-2"><i class="fa fa-check"></i><b>1.2</b> Getting started in R</a></li>
+<li class="chapter" data-level="1.3" data-path="chapter1.html"><a href="chapter1.html#section1-3"><i class="fa fa-check"></i><b>1.3</b> Basic summary statistics, histograms, and boxplots using R</a></li>
+<li class="chapter" data-level="1.4" data-path="chapter1.html"><a href="chapter1.html#section1-4"><i class="fa fa-check"></i><b>1.4</b> Chapter summary</a></li>
+<li class="chapter" data-level="1.5" data-path="chapter1.html"><a href="chapter1.html#section1-5"><i class="fa fa-check"></i><b>1.5</b> Summary of important R code</a></li>
+<li class="chapter" data-level="1.6" data-path="chapter1.html"><a href="chapter1.html#section1-6"><i class="fa fa-check"></i><b>1.6</b> Practice problems</a></li>
 </ul></li>
-<li class="chapter" data-level="1" data-path="chapter4.html"><a href="chapter4.html"><i class="fa fa-check"></i><b>1</b> Two-Way ANOVA</a><ul>
-<li class="chapter" data-level="1.1" data-path="chapter4.html"><a href="chapter4.html#section4-1"><i class="fa fa-check"></i><b>1.1</b> Situation</a></li>
-<li class="chapter" data-level="1.2" data-path="chapter4.html"><a href="chapter4.html#section4-2"><i class="fa fa-check"></i><b>1.2</b> Designing a two-way experiment and visualizing results</a></li>
-<li class="chapter" data-level="1.3" data-path="chapter4.html"><a href="chapter4.html#section4-3"><i class="fa fa-check"></i><b>1.3</b> Two-Way ANOVA models and hypothesis tests</a></li>
-<li class="chapter" data-level="1.4" data-path="chapter4.html"><a href="chapter4.html#section4-4"><i class="fa fa-check"></i><b>1.4</b> Guinea pig tooth growth analysis with Two-Way ANOVA</a></li>
-<li class="chapter" data-level="1.5" data-path="chapter4.html"><a href="chapter4.html#section4-5"><i class="fa fa-check"></i><b>1.5</b> Observational study example: The Psychology of Debt</a></li>
-<li class="chapter" data-level="1.6" data-path="chapter4.html"><a href="chapter4.html#section4-6"><i class="fa fa-check"></i><b>1.6</b> Pushing Two-Way ANOVA to the limit: Un-replicated designs</a></li>
-<li class="chapter" data-level="1.7" data-path="chapter4.html"><a href="chapter4.html#section4-7"><i class="fa fa-check"></i><b>1.7</b> Chapter summary</a></li>
-<li class="chapter" data-level="1.8" data-path="chapter4.html"><a href="chapter4.html#section4-8"><i class="fa fa-check"></i><b>1.8</b> Summary of important R code</a></li>
-<li class="chapter" data-level="1.9" data-path="chapter4.html"><a href="chapter4.html#section4-9"><i class="fa fa-check"></i><b>1.9</b> Practice problems</a></li>
+<li class="chapter" data-level="2" data-path="chapter2.html"><a href="chapter2.html"><i class="fa fa-check"></i><b>2</b> (R)e-Introduction to statistics</a><ul>
+<li class="chapter" data-level="2.1" data-path="chapter2.html"><a href="chapter2.html#section2-1"><i class="fa fa-check"></i><b>2.1</b> Histograms, boxplots, and density curves</a></li>
+<li class="chapter" data-level="2.2" data-path="chapter2.html"><a href="chapter2.html#section2-2"><i class="fa fa-check"></i><b>2.2</b> Beanplots</a></li>
+<li class="chapter" data-level="2.3" data-path="chapter2.html"><a href="chapter2.html#section2-3"><i class="fa fa-check"></i><b>2.3</b> Models, hypotheses, and permutations for the two sample mean situation</a></li>
+<li class="chapter" data-level="2.4" data-path="chapter2.html"><a href="chapter2.html#section2-4"><i class="fa fa-check"></i><b>2.4</b> Permutation testing for the two sample mean situation</a></li>
+<li class="chapter" data-level="2.5" data-path="chapter2.html"><a href="chapter2.html#section2-5"><i class="fa fa-check"></i><b>2.5</b> Hypothesis testing (general)</a></li>
+<li class="chapter" data-level="2.6" data-path="chapter2.html"><a href="chapter2.html#section2-6"><i class="fa fa-check"></i><b>2.6</b> Connecting randomization (nonparametric) and parametric tests</a></li>
+<li class="chapter" data-level="2.7" data-path="chapter2.html"><a href="chapter2.html#section2-7"><i class="fa fa-check"></i><b>2.7</b> Second example of permutation tests</a></li>
+<li class="chapter" data-level="2.8" data-path="chapter2.html"><a href="chapter2.html#section2-8"><i class="fa fa-check"></i><b>2.8</b> Confidence intervals and bootstrapping</a></li>
+<li class="chapter" data-level="2.9" data-path="chapter2.html"><a href="chapter2.html#section2-9"><i class="fa fa-check"></i><b>2.9</b> Bootstrap confidence intervals for difference in GPAs</a></li>
+<li class="chapter" data-level="2.10" data-path="chapter2.html"><a href="chapter2.html#section2-10"><i class="fa fa-check"></i><b>2.10</b> Chapter summary</a></li>
+<li class="chapter" data-level="2.11" data-path="chapter2.html"><a href="chapter2.html#section2-11"><i class="fa fa-check"></i><b>2.11</b> Summary of important R code</a></li>
+<li class="chapter" data-level="2.12" data-path="chapter2.html"><a href="chapter2.html#section2-12"><i class="fa fa-check"></i><b>2.12</b> Practice problems</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="chapter5.html"><a href="chapter5.html"><i class="fa fa-check"></i><b>2</b> Chi-square tests</a><ul>
-<li class="chapter" data-level="2.1" data-path="chapter5.html"><a href="chapter5.html#section5-1"><i class="fa fa-check"></i><b>2.1</b> Situation, contingency tables, and tableplots</a></li>
-<li class="chapter" data-level="2.2" data-path="chapter5.html"><a href="chapter5.html#section5-2"><i class="fa fa-check"></i><b>2.2</b> Homogeneity test hypotheses</a></li>
-<li class="chapter" data-level="2.3" data-path="chapter5.html"><a href="chapter5.html#section5-3"><i class="fa fa-check"></i><b>2.3</b> Independence test hypotheses</a></li>
-<li class="chapter" data-level="2.4" data-path="chapter5.html"><a href="chapter5.html#section5-4"><i class="fa fa-check"></i><b>2.4</b> Models for R by C tables</a></li>
-<li class="chapter" data-level="2.5" data-path="chapter5.html"><a href="chapter5.html#section5-5"><i class="fa fa-check"></i><b>2.5</b> Permutation tests for the <span class="math inline">\(X^2\)</span> statistic</a></li>
-<li class="chapter" data-level="2.6" data-path="chapter5.html"><a href="chapter5.html#section5-6"><i class="fa fa-check"></i><b>2.6</b> Chi-square distribution for the <span class="math inline">\(X^2\)</span> statistic</a></li>
-<li class="chapter" data-level="2.7" data-path="chapter5.html"><a href="chapter5.html#section5-7"><i class="fa fa-check"></i><b>2.7</b> Examining residuals for the source of differences</a></li>
-<li class="chapter" data-level="2.8" data-path="chapter5.html"><a href="chapter5.html#section5-8"><i class="fa fa-check"></i><b>2.8</b> General protocol for <span class="math inline">\(X^2\)</span> tests</a></li>
-<li class="chapter" data-level="2.9" data-path="chapter5.html"><a href="chapter5.html#section5-9"><i class="fa fa-check"></i><b>2.9</b> Political party and voting results: Complete analysis</a></li>
-<li class="chapter" data-level="2.10" data-path="chapter5.html"><a href="chapter5.html#section5-10"><i class="fa fa-check"></i><b>2.10</b> Is cheating and lying related in students?</a></li>
-<li class="chapter" data-level="2.11" data-path="chapter5.html"><a href="chapter5.html#section5-11"><i class="fa fa-check"></i><b>2.11</b> Analyzing a stratified random sample of California schools</a></li>
-<li class="chapter" data-level="2.12" data-path="chapter5.html"><a href="chapter5.html#section5-12"><i class="fa fa-check"></i><b>2.12</b> Chapter summary</a></li>
-<li class="chapter" data-level="2.13" data-path="chapter5.html"><a href="chapter5.html#section5-13"><i class="fa fa-check"></i><b>2.13</b> Summary of important R commands</a></li>
-<li class="chapter" data-level="2.14" data-path="chapter5.html"><a href="chapter5.html#section5-14"><i class="fa fa-check"></i><b>2.14</b> Practice problems</a></li>
+<li class="chapter" data-level="3" data-path="chapter3.html"><a href="chapter3.html"><i class="fa fa-check"></i><b>3</b> One-Way ANOVA</a><ul>
+<li class="chapter" data-level="3.1" data-path="chapter3.html"><a href="chapter3.html#section3-1"><i class="fa fa-check"></i><b>3.1</b> Situation</a></li>
+<li class="chapter" data-level="3.2" data-path="chapter3.html"><a href="chapter3.html#section3-2"><i class="fa fa-check"></i><b>3.2</b> Linear model for One-Way ANOVA (cell-means and reference-coding)</a></li>
+<li class="chapter" data-level="3.3" data-path="chapter3.html"><a href="chapter3.html#section3-3"><i class="fa fa-check"></i><b>3.3</b> One-Way ANOVA Sums of Squares, Mean Squares, and F-test</a></li>
+<li class="chapter" data-level="3.4" data-path="chapter3.html"><a href="chapter3.html#section3-4"><i class="fa fa-check"></i><b>3.4</b> ANOVA model diagnostics including QQ-plots</a></li>
+<li class="chapter" data-level="3.5" data-path="chapter3.html"><a href="chapter3.html#section3-5"><i class="fa fa-check"></i><b>3.5</b> Guinea pig tooth growth One-Way ANOVA example</a></li>
+<li class="chapter" data-level="3.6" data-path="chapter3.html"><a href="chapter3.html#section3-6"><i class="fa fa-check"></i><b>3.6</b> Multiple (pair-wise) comparisons using Tukey’s HSD and the compact letter display</a></li>
+<li class="chapter" data-level="3.7" data-path="chapter3.html"><a href="chapter3.html#section3-7"><i class="fa fa-check"></i><b>3.7</b> Pair-wise comparisons for Prisoner Rating data</a></li>
+<li class="chapter" data-level="3.8" data-path="chapter3.html"><a href="chapter3.html#section3-8"><i class="fa fa-check"></i><b>3.8</b> Chapter summary</a></li>
+<li class="chapter" data-level="3.9" data-path="chapter3.html"><a href="chapter3.html#section3-9"><i class="fa fa-check"></i><b>3.9</b> Summary of important R code</a></li>
+<li class="chapter" data-level="3.10" data-path="chapter3.html"><a href="chapter3.html#section3-10"><i class="fa fa-check"></i><b>3.10</b> Practice problems</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="chapter6.html"><a href="chapter6.html"><i class="fa fa-check"></i><b>3</b> Correlation and Simple Linear Regression</a><ul>
-<li class="chapter" data-level="3.1" data-path="chapter6.html"><a href="chapter6.html#section6-1"><i class="fa fa-check"></i><b>3.1</b> Relationships between two quantitative variables</a></li>
-<li class="chapter" data-level="3.2" data-path="chapter6.html"><a href="chapter6.html#section6-2"><i class="fa fa-check"></i><b>3.2</b> Estimating the correlation coefficient</a></li>
-<li class="chapter" data-level="3.3" data-path="chapter6.html"><a href="chapter6.html#section6-3"><i class="fa fa-check"></i><b>3.3</b> Relationships between variables by groups</a></li>
-<li class="chapter" data-level="3.4" data-path="chapter6.html"><a href="chapter6.html#section6-4"><i class="fa fa-check"></i><b>3.4</b> Inference for the correlation coefficient (Optional section)</a></li>
-<li class="chapter" data-level="3.5" data-path="chapter6.html"><a href="chapter6.html#section6-5"><i class="fa fa-check"></i><b>3.5</b> Are tree diameters related to tree heights?</a></li>
-<li class="chapter" data-level="3.6" data-path="chapter6.html"><a href="chapter6.html#section6-6"><i class="fa fa-check"></i><b>3.6</b> Describing relationships with a regression model</a></li>
-<li class="chapter" data-level="3.7" data-path="chapter6.html"><a href="chapter6.html#section6-7"><i class="fa fa-check"></i><b>3.7</b> Least Squares Estimation</a></li>
-<li class="chapter" data-level="3.8" data-path="chapter6.html"><a href="chapter6.html#section6-8"><i class="fa fa-check"></i><b>3.8</b> Measuring the strength of regressions: R<sup>2</sup></a></li>
-<li class="chapter" data-level="3.9" data-path="chapter6.html"><a href="chapter6.html#section6-9"><i class="fa fa-check"></i><b>3.9</b> Outliers: leverage and influence</a></li>
-<li class="chapter" data-level="3.10" data-path="chapter6.html"><a href="chapter6.html#section6-10"><i class="fa fa-check"></i><b>3.10</b> Residual diagnostics – setting the stage for inference</a></li>
-<li class="chapter" data-level="3.11" data-path="chapter6.html"><a href="chapter6.html#section6-11"><i class="fa fa-check"></i><b>3.11</b> Old Faithful discharge and waiting times</a></li>
-<li class="chapter" data-level="3.12" data-path="chapter6.html"><a href="chapter6.html#section6-12"><i class="fa fa-check"></i><b>3.12</b> Chapter summary</a></li>
-<li class="chapter" data-level="3.13" data-path="chapter6.html"><a href="chapter6.html#section6-13"><i class="fa fa-check"></i><b>3.13</b> Summary of important R code</a></li>
-<li class="chapter" data-level="3.14" data-path="chapter6.html"><a href="chapter6.html#section6-14"><i class="fa fa-check"></i><b>3.14</b> Practice problems</a></li>
+<li class="chapter" data-level="4" data-path="chapter4.html"><a href="chapter4.html"><i class="fa fa-check"></i><b>4</b> Two-Way ANOVA</a><ul>
+<li class="chapter" data-level="4.1" data-path="chapter4.html"><a href="chapter4.html#section4-1"><i class="fa fa-check"></i><b>4.1</b> Situation</a></li>
+<li class="chapter" data-level="4.2" data-path="chapter4.html"><a href="chapter4.html#section4-2"><i class="fa fa-check"></i><b>4.2</b> Designing a two-way experiment and visualizing results</a></li>
+<li class="chapter" data-level="4.3" data-path="chapter4.html"><a href="chapter4.html#section4-3"><i class="fa fa-check"></i><b>4.3</b> Two-Way ANOVA models and hypothesis tests</a></li>
+<li class="chapter" data-level="4.4" data-path="chapter4.html"><a href="chapter4.html#section4-4"><i class="fa fa-check"></i><b>4.4</b> Guinea pig tooth growth analysis with Two-Way ANOVA</a></li>
+<li class="chapter" data-level="4.5" data-path="chapter4.html"><a href="chapter4.html#section4-5"><i class="fa fa-check"></i><b>4.5</b> Observational study example: The Psychology of Debt</a></li>
+<li class="chapter" data-level="4.6" data-path="chapter4.html"><a href="chapter4.html#section4-6"><i class="fa fa-check"></i><b>4.6</b> Pushing Two-Way ANOVA to the limit: Un-replicated designs</a></li>
+<li class="chapter" data-level="4.7" data-path="chapter4.html"><a href="chapter4.html#section4-7"><i class="fa fa-check"></i><b>4.7</b> Chapter summary</a></li>
+<li class="chapter" data-level="4.8" data-path="chapter4.html"><a href="chapter4.html#section4-8"><i class="fa fa-check"></i><b>4.8</b> Summary of important R code</a></li>
+<li class="chapter" data-level="4.9" data-path="chapter4.html"><a href="chapter4.html#section4-9"><i class="fa fa-check"></i><b>4.9</b> Practice problems</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="chapter7.html"><a href="chapter7.html"><i class="fa fa-check"></i><b>4</b> Simple linear regression inference</a><ul>
-<li class="chapter" data-level="4.1" data-path="chapter7.html"><a href="chapter7.html#section7-1"><i class="fa fa-check"></i><b>4.1</b> Model</a></li>
-<li class="chapter" data-level="4.2" data-path="chapter7.html"><a href="chapter7.html#section7-2"><i class="fa fa-check"></i><b>4.2</b> Confidence interval and hypothesis tests for the slope and intercept</a></li>
-<li class="chapter" data-level="4.3" data-path="chapter7.html"><a href="chapter7.html#section7-3"><i class="fa fa-check"></i><b>4.3</b> Bozeman temperature trend</a></li>
-<li class="chapter" data-level="4.4" data-path="chapter7.html"><a href="chapter7.html#section7-4"><i class="fa fa-check"></i><b>4.4</b> Randomizing inferences for the slope coefficient</a></li>
-<li class="chapter" data-level="4.5" data-path="chapter7.html"><a href="chapter7.html#section7-5"><i class="fa fa-check"></i><b>4.5</b> Transformations part I: Linearizing relationships</a></li>
-<li class="chapter" data-level="4.6" data-path="chapter7.html"><a href="chapter7.html#section7-6"><i class="fa fa-check"></i><b>4.6</b> Transformations part II: Impacts on SLR interpretations: log(y), log(x), &amp; both log(y) &amp; log(x)</a></li>
-<li class="chapter" data-level="4.7" data-path="chapter7.html"><a href="chapter7.html#section7-7"><i class="fa fa-check"></i><b>4.7</b> Confidence interval for the mean and prediction intervals for a new observation</a></li>
-<li class="chapter" data-level="4.8" data-path="chapter7.html"><a href="chapter7.html#section7-8"><i class="fa fa-check"></i><b>4.8</b> Chapter summary</a></li>
-<li class="chapter" data-level="4.9" data-path="chapter7.html"><a href="chapter7.html#section7-9"><i class="fa fa-check"></i><b>4.9</b> Summary of important R code</a></li>
-<li class="chapter" data-level="4.10" data-path="chapter7.html"><a href="chapter7.html#section7-10"><i class="fa fa-check"></i><b>4.10</b> Practice problems</a></li>
+<li class="chapter" data-level="5" data-path="chapter5.html"><a href="chapter5.html"><i class="fa fa-check"></i><b>5</b> Chi-square tests</a><ul>
+<li class="chapter" data-level="5.1" data-path="chapter5.html"><a href="chapter5.html#section5-1"><i class="fa fa-check"></i><b>5.1</b> Situation, contingency tables, and tableplots</a></li>
+<li class="chapter" data-level="5.2" data-path="chapter5.html"><a href="chapter5.html#section5-2"><i class="fa fa-check"></i><b>5.2</b> Homogeneity test hypotheses</a></li>
+<li class="chapter" data-level="5.3" data-path="chapter5.html"><a href="chapter5.html#section5-3"><i class="fa fa-check"></i><b>5.3</b> Independence test hypotheses</a></li>
+<li class="chapter" data-level="5.4" data-path="chapter5.html"><a href="chapter5.html#section5-4"><i class="fa fa-check"></i><b>5.4</b> Models for R by C tables</a></li>
+<li class="chapter" data-level="5.5" data-path="chapter5.html"><a href="chapter5.html#section5-5"><i class="fa fa-check"></i><b>5.5</b> Permutation tests for the <span class="math inline">\(X^2\)</span> statistic</a></li>
+<li class="chapter" data-level="5.6" data-path="chapter5.html"><a href="chapter5.html#section5-6"><i class="fa fa-check"></i><b>5.6</b> Chi-square distribution for the <span class="math inline">\(X^2\)</span> statistic</a></li>
+<li class="chapter" data-level="5.7" data-path="chapter5.html"><a href="chapter5.html#section5-7"><i class="fa fa-check"></i><b>5.7</b> Examining residuals for the source of differences</a></li>
+<li class="chapter" data-level="5.8" data-path="chapter5.html"><a href="chapter5.html#section5-8"><i class="fa fa-check"></i><b>5.8</b> General protocol for <span class="math inline">\(X^2\)</span> tests</a></li>
+<li class="chapter" data-level="5.9" data-path="chapter5.html"><a href="chapter5.html#section5-9"><i class="fa fa-check"></i><b>5.9</b> Political party and voting results: Complete analysis</a></li>
+<li class="chapter" data-level="5.10" data-path="chapter5.html"><a href="chapter5.html#section5-10"><i class="fa fa-check"></i><b>5.10</b> Is cheating and lying related in students?</a></li>
+<li class="chapter" data-level="5.11" data-path="chapter5.html"><a href="chapter5.html#section5-11"><i class="fa fa-check"></i><b>5.11</b> Analyzing a stratified random sample of California schools</a></li>
+<li class="chapter" data-level="5.12" data-path="chapter5.html"><a href="chapter5.html#section5-12"><i class="fa fa-check"></i><b>5.12</b> Chapter summary</a></li>
+<li class="chapter" data-level="5.13" data-path="chapter5.html"><a href="chapter5.html#section5-13"><i class="fa fa-check"></i><b>5.13</b> Summary of important R commands</a></li>
+<li class="chapter" data-level="5.14" data-path="chapter5.html"><a href="chapter5.html#section5-14"><i class="fa fa-check"></i><b>5.14</b> Practice problems</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="chapter8.html"><a href="chapter8.html"><i class="fa fa-check"></i><b>5</b> Multiple linear regression</a><ul>
-<li class="chapter" data-level="5.1" data-path="chapter8.html"><a href="chapter8.html#section8-1"><i class="fa fa-check"></i><b>5.1</b> Going from SLR to MLR</a></li>
-<li class="chapter" data-level="5.2" data-path="chapter8.html"><a href="chapter8.html#section8-2"><i class="fa fa-check"></i><b>5.2</b> Validity conditions in MLR</a></li>
-<li class="chapter" data-level="5.3" data-path="chapter8.html"><a href="chapter8.html#section8-3"><i class="fa fa-check"></i><b>5.3</b> Interpretation of MLR terms</a></li>
-<li class="chapter" data-level="5.4" data-path="chapter8.html"><a href="chapter8.html#section8-4"><i class="fa fa-check"></i><b>5.4</b> Comparing multiple regression models</a></li>
-<li class="chapter" data-level="5.5" data-path="chapter8.html"><a href="chapter8.html#section8-5"><i class="fa fa-check"></i><b>5.5</b> General recommendations for MLR interpretations and VIFs</a></li>
-<li class="chapter" data-level="5.6" data-path="chapter8.html"><a href="chapter8.html#section8-6"><i class="fa fa-check"></i><b>5.6</b> MLR inference: Parameter inferences using the t-distribution</a></li>
-<li class="chapter" data-level="5.7" data-path="chapter8.html"><a href="chapter8.html#section8-7"><i class="fa fa-check"></i><b>5.7</b> Overall F-test in multiple linear regression</a></li>
-<li class="chapter" data-level="5.8" data-path="chapter8.html"><a href="chapter8.html#section8-8"><i class="fa fa-check"></i><b>5.8</b> Case study: First year college GPA and SATs</a></li>
-<li class="chapter" data-level="5.9" data-path="chapter8.html"><a href="chapter8.html#section8-9"><i class="fa fa-check"></i><b>5.9</b> Different intercepts for different groups: MLR with indicator variables</a></li>
-<li class="chapter" data-level="5.10" data-path="chapter8.html"><a href="chapter8.html#section8-10"><i class="fa fa-check"></i><b>5.10</b> Additive MLR with more than two groups: Headache example</a></li>
-<li class="chapter" data-level="5.11" data-path="chapter8.html"><a href="chapter8.html#section8-11"><i class="fa fa-check"></i><b>5.11</b> Different slopes and different intercepts</a></li>
-<li class="chapter" data-level="5.12" data-path="chapter8.html"><a href="chapter8.html#section8-12"><i class="fa fa-check"></i><b>5.12</b> F-tests for MLR models with quantitative and categorical variables and interactions</a></li>
-<li class="chapter" data-level="5.13" data-path="chapter8.html"><a href="chapter8.html#section8-13"><i class="fa fa-check"></i><b>5.13</b> AICs for model selection</a></li>
-<li class="chapter" data-level="5.14" data-path="chapter8.html"><a href="chapter8.html#section8-14"><i class="fa fa-check"></i><b>5.14</b> Case study: Forced expiratory volume model selection using AICs</a></li>
-<li class="chapter" data-level="5.15" data-path="chapter8.html"><a href="chapter8.html#section8-15"><i class="fa fa-check"></i><b>5.15</b> Chapter summary</a></li>
-<li class="chapter" data-level="5.16" data-path="chapter8.html"><a href="chapter8.html#section8-16"><i class="fa fa-check"></i><b>5.16</b> Summary of important R code</a></li>
-<li class="chapter" data-level="5.17" data-path="chapter8.html"><a href="chapter8.html#section8-17"><i class="fa fa-check"></i><b>5.17</b> Practice problems</a></li>
+<li class="chapter" data-level="6" data-path="chapter6.html"><a href="chapter6.html"><i class="fa fa-check"></i><b>6</b> Correlation and Simple Linear Regression</a><ul>
+<li class="chapter" data-level="6.1" data-path="chapter6.html"><a href="chapter6.html#section6-1"><i class="fa fa-check"></i><b>6.1</b> Relationships between two quantitative variables</a></li>
+<li class="chapter" data-level="6.2" data-path="chapter6.html"><a href="chapter6.html#section6-2"><i class="fa fa-check"></i><b>6.2</b> Estimating the correlation coefficient</a></li>
+<li class="chapter" data-level="6.3" data-path="chapter6.html"><a href="chapter6.html#section6-3"><i class="fa fa-check"></i><b>6.3</b> Relationships between variables by groups</a></li>
+<li class="chapter" data-level="6.4" data-path="chapter6.html"><a href="chapter6.html#section6-4"><i class="fa fa-check"></i><b>6.4</b> Inference for the correlation coefficient (Optional section)</a></li>
+<li class="chapter" data-level="6.5" data-path="chapter6.html"><a href="chapter6.html#section6-5"><i class="fa fa-check"></i><b>6.5</b> Are tree diameters related to tree heights?</a></li>
+<li class="chapter" data-level="6.6" data-path="chapter6.html"><a href="chapter6.html#section6-6"><i class="fa fa-check"></i><b>6.6</b> Describing relationships with a regression model</a></li>
+<li class="chapter" data-level="6.7" data-path="chapter6.html"><a href="chapter6.html#section6-7"><i class="fa fa-check"></i><b>6.7</b> Least Squares Estimation</a></li>
+<li class="chapter" data-level="6.8" data-path="chapter6.html"><a href="chapter6.html#section6-8"><i class="fa fa-check"></i><b>6.8</b> Measuring the strength of regressions: R<sup>2</sup></a></li>
+<li class="chapter" data-level="6.9" data-path="chapter6.html"><a href="chapter6.html#section6-9"><i class="fa fa-check"></i><b>6.9</b> Outliers: leverage and influence</a></li>
+<li class="chapter" data-level="6.10" data-path="chapter6.html"><a href="chapter6.html#section6-10"><i class="fa fa-check"></i><b>6.10</b> Residual diagnostics – setting the stage for inference</a></li>
+<li class="chapter" data-level="6.11" data-path="chapter6.html"><a href="chapter6.html#section6-11"><i class="fa fa-check"></i><b>6.11</b> Old Faithful discharge and waiting times</a></li>
+<li class="chapter" data-level="6.12" data-path="chapter6.html"><a href="chapter6.html#section6-12"><i class="fa fa-check"></i><b>6.12</b> Chapter summary</a></li>
+<li class="chapter" data-level="6.13" data-path="chapter6.html"><a href="chapter6.html#section6-13"><i class="fa fa-check"></i><b>6.13</b> Summary of important R code</a></li>
+<li class="chapter" data-level="6.14" data-path="chapter6.html"><a href="chapter6.html#section6-14"><i class="fa fa-check"></i><b>6.14</b> Practice problems</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="chapter9.html"><a href="chapter9.html"><i class="fa fa-check"></i><b>6</b> Case studies</a><ul>
-<li class="chapter" data-level="6.1" data-path="chapter9.html"><a href="chapter9.html#section9-1"><i class="fa fa-check"></i><b>6.1</b> Overview of material covered</a></li>
-<li class="chapter" data-level="6.2" data-path="chapter9.html"><a href="chapter9.html#section9-2"><i class="fa fa-check"></i><b>6.2</b> The impact of simulated chronic nitrogen deposition on the biomass and N2-fixation activity of two boreal feather moss–cyanobacteria associations</a></li>
-<li class="chapter" data-level="6.3" data-path="chapter9.html"><a href="chapter9.html#section9-3"><i class="fa fa-check"></i><b>6.3</b> Ants learn to rely on more informative attributes during decision-making</a></li>
-<li class="chapter" data-level="6.4" data-path="chapter9.html"><a href="chapter9.html#section9-4"><i class="fa fa-check"></i><b>6.4</b> Multi-variate models are essential for understanding vertebrate diversification in deep time</a></li>
-<li class="chapter" data-level="6.5" data-path="chapter9.html"><a href="chapter9.html#section9-5"><i class="fa fa-check"></i><b>6.5</b> What do didgeridoos really do about sleepiness?</a></li>
-<li class="chapter" data-level="6.6" data-path="chapter9.html"><a href="chapter9.html#section9-6"><i class="fa fa-check"></i><b>6.6</b> General summary</a></li>
+<li class="chapter" data-level="7" data-path="chapter7.html"><a href="chapter7.html"><i class="fa fa-check"></i><b>7</b> Simple linear regression inference</a><ul>
+<li class="chapter" data-level="7.1" data-path="chapter7.html"><a href="chapter7.html#section7-1"><i class="fa fa-check"></i><b>7.1</b> Model</a></li>
+<li class="chapter" data-level="7.2" data-path="chapter7.html"><a href="chapter7.html#section7-2"><i class="fa fa-check"></i><b>7.2</b> Confidence interval and hypothesis tests for the slope and intercept</a></li>
+<li class="chapter" data-level="7.3" data-path="chapter7.html"><a href="chapter7.html#section7-3"><i class="fa fa-check"></i><b>7.3</b> Bozeman temperature trend</a></li>
+<li class="chapter" data-level="7.4" data-path="chapter7.html"><a href="chapter7.html#section7-4"><i class="fa fa-check"></i><b>7.4</b> Randomizing inferences for the slope coefficient</a></li>
+<li class="chapter" data-level="7.5" data-path="chapter7.html"><a href="chapter7.html#section7-5"><i class="fa fa-check"></i><b>7.5</b> Transformations part I: Linearizing relationships</a></li>
+<li class="chapter" data-level="7.6" data-path="chapter7.html"><a href="chapter7.html#section7-6"><i class="fa fa-check"></i><b>7.6</b> Transformations part II: Impacts on SLR interpretations: log(y), log(x), &amp; both log(y) &amp; log(x)</a></li>
+<li class="chapter" data-level="7.7" data-path="chapter7.html"><a href="chapter7.html#section7-7"><i class="fa fa-check"></i><b>7.7</b> Confidence interval for the mean and prediction intervals for a new observation</a></li>
+<li class="chapter" data-level="7.8" data-path="chapter7.html"><a href="chapter7.html#section7-8"><i class="fa fa-check"></i><b>7.8</b> Chapter summary</a></li>
+<li class="chapter" data-level="7.9" data-path="chapter7.html"><a href="chapter7.html#section7-9"><i class="fa fa-check"></i><b>7.9</b> Summary of important R code</a></li>
+<li class="chapter" data-level="7.10" data-path="chapter7.html"><a href="chapter7.html#section7-10"><i class="fa fa-check"></i><b>7.10</b> Practice problems</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="chapter8.html"><a href="chapter8.html"><i class="fa fa-check"></i><b>8</b> Multiple linear regression</a><ul>
+<li class="chapter" data-level="8.1" data-path="chapter8.html"><a href="chapter8.html#section8-1"><i class="fa fa-check"></i><b>8.1</b> Going from SLR to MLR</a></li>
+<li class="chapter" data-level="8.2" data-path="chapter8.html"><a href="chapter8.html#section8-2"><i class="fa fa-check"></i><b>8.2</b> Validity conditions in MLR</a></li>
+<li class="chapter" data-level="8.3" data-path="chapter8.html"><a href="chapter8.html#section8-3"><i class="fa fa-check"></i><b>8.3</b> Interpretation of MLR terms</a></li>
+<li class="chapter" data-level="8.4" data-path="chapter8.html"><a href="chapter8.html#section8-4"><i class="fa fa-check"></i><b>8.4</b> Comparing multiple regression models</a></li>
+<li class="chapter" data-level="8.5" data-path="chapter8.html"><a href="chapter8.html#section8-5"><i class="fa fa-check"></i><b>8.5</b> General recommendations for MLR interpretations and VIFs</a></li>
+<li class="chapter" data-level="8.6" data-path="chapter8.html"><a href="chapter8.html#section8-6"><i class="fa fa-check"></i><b>8.6</b> MLR inference: Parameter inferences using the t-distribution</a></li>
+<li class="chapter" data-level="8.7" data-path="chapter8.html"><a href="chapter8.html#section8-7"><i class="fa fa-check"></i><b>8.7</b> Overall F-test in multiple linear regression</a></li>
+<li class="chapter" data-level="8.8" data-path="chapter8.html"><a href="chapter8.html#section8-8"><i class="fa fa-check"></i><b>8.8</b> Case study: First year college GPA and SATs</a></li>
+<li class="chapter" data-level="8.9" data-path="chapter8.html"><a href="chapter8.html#section8-9"><i class="fa fa-check"></i><b>8.9</b> Different intercepts for different groups: MLR with indicator variables</a></li>
+<li class="chapter" data-level="8.10" data-path="chapter8.html"><a href="chapter8.html#section8-10"><i class="fa fa-check"></i><b>8.10</b> Additive MLR with more than two groups: Headache example</a></li>
+<li class="chapter" data-level="8.11" data-path="chapter8.html"><a href="chapter8.html#section8-11"><i class="fa fa-check"></i><b>8.11</b> Different slopes and different intercepts</a></li>
+<li class="chapter" data-level="8.12" data-path="chapter8.html"><a href="chapter8.html#section8-12"><i class="fa fa-check"></i><b>8.12</b> F-tests for MLR models with quantitative and categorical variables and interactions</a></li>
+<li class="chapter" data-level="8.13" data-path="chapter8.html"><a href="chapter8.html#section8-13"><i class="fa fa-check"></i><b>8.13</b> AICs for model selection</a></li>
+<li class="chapter" data-level="8.14" data-path="chapter8.html"><a href="chapter8.html#section8-14"><i class="fa fa-check"></i><b>8.14</b> Case study: Forced expiratory volume model selection using AICs</a></li>
+<li class="chapter" data-level="8.15" data-path="chapter8.html"><a href="chapter8.html#section8-15"><i class="fa fa-check"></i><b>8.15</b> Chapter summary</a></li>
+<li class="chapter" data-level="8.16" data-path="chapter8.html"><a href="chapter8.html#section8-16"><i class="fa fa-check"></i><b>8.16</b> Summary of important R code</a></li>
+<li class="chapter" data-level="8.17" data-path="chapter8.html"><a href="chapter8.html#section8-17"><i class="fa fa-check"></i><b>8.17</b> Practice problems</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="chapter9.html"><a href="chapter9.html"><i class="fa fa-check"></i><b>9</b> Case studies</a><ul>
+<li class="chapter" data-level="9.1" data-path="chapter9.html"><a href="chapter9.html#section9-1"><i class="fa fa-check"></i><b>9.1</b> Overview of material covered</a></li>
+<li class="chapter" data-level="9.2" data-path="chapter9.html"><a href="chapter9.html#section9-2"><i class="fa fa-check"></i><b>9.2</b> The impact of simulated chronic nitrogen deposition on the biomass and N2-fixation activity of two boreal feather moss–cyanobacteria associations</a></li>
+<li class="chapter" data-level="9.3" data-path="chapter9.html"><a href="chapter9.html#section9-3"><i class="fa fa-check"></i><b>9.3</b> Ants learn to rely on more informative attributes during decision-making</a></li>
+<li class="chapter" data-level="9.4" data-path="chapter9.html"><a href="chapter9.html#section9-4"><i class="fa fa-check"></i><b>9.4</b> Multi-variate models are essential for understanding vertebrate diversification in deep time</a></li>
+<li class="chapter" data-level="9.5" data-path="chapter9.html"><a href="chapter9.html#section9-5"><i class="fa fa-check"></i><b>9.5</b> What do didgeridoos really do about sleepiness?</a></li>
+<li class="chapter" data-level="9.6" data-path="chapter9.html"><a href="chapter9.html#section9-6"><i class="fa fa-check"></i><b>9.6</b> General summary</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -256,10 +268,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
             <section class="normal" id="section-">
 <div id="chapter7" class="section level1">
-<h1><span class="header-section-number">Chapter 4</span> Simple linear regression inference</h1>
+<h1><span class="header-section-number">Chapter 7</span> Simple linear regression inference</h1>
 <div id="section7-1" class="section level2">
-<h2><span class="header-section-number">4.1</span> Model</h2>
-<p>In Chapter <a href="chapter6.html#chapter6">3</a>, we learned how to estimate and interpret
+<h2><span class="header-section-number">7.1</span> Model</h2>
+<p>In Chapter <a href="chapter6.html#chapter6">6</a>, we learned how to estimate and interpret
 correlations and regression
 equations with a single predictor variable (<strong><em>simple linear regression</em></strong>
 or SLR).
@@ -314,7 +326,7 @@ regression model: </p>
 <li><p>The model for the mean is “correct” (<strong><em>Linearity, No Influential points,
 Only one group</em></strong>).</p></li>
 </ol>
-<p>The diagnostics described at the end of Chapter <a href="chapter6.html#chapter6">3</a> provide
+<p>The diagnostics described at the end of Chapter <a href="chapter6.html#chapter6">6</a> provide
 techniques for checking these assumptions – meeting these
 assumptions is fundamental to having a regression line that we trust and
 inferences from it that we also can trust.</p>
@@ -329,11 +341,11 @@ values are normally distributed around the mean for each <em>Beer</em> level,
 the mean defined by the regression equation. We actually do not need to
 obtain more than one observation at each <span class="math inline">\(x\)</span> value to
 make this assumption or assess it, but the plots below show you what this could
-look like. The sketch in Figure <a href="chapter7.html#fig:Figure7-1">4.1</a> attempts to show
+look like. The sketch in Figure <a href="chapter7.html#fig:Figure7-1">7.1</a> attempts to show
 the idea of normal
 distributions that are centered at the true regression line, all with the same
 shape and variance that is an assumption of the regression model. Figure
-<a href="chapter7.html#fig:Figure7-2">4.2</a> contains simulated realizations from a normal
+<a href="chapter7.html#fig:Figure7-2">7.2</a> contains simulated realizations from a normal
 distribution of 20 subjects at each <em>Beer</em> level around the assumed true
 regression line with two different residual SEs of 0.02 and 0.06. The original
 BAC model has a residual SE of 0.02 but had many fewer observations at each
@@ -343,7 +355,7 @@ centered at the regression line.</p>
 <div class="figure"><span id="fig:Figure7-1"></span>
 <img src="chapter7_files/image029small.png" alt="(ref:fig7-1)" width="109" />
 <p class="caption">
-Figure 4.1: (ref:fig7-1)
+Figure 7.1: (ref:fig7-1)
 </p>
 </div>
 <p>(ref:fig7-2) Simulated data for Beers and BAC assuming two different residual
@@ -351,7 +363,7 @@ standard errors (0.02 and 0.06).</p>
 <div class="figure"><span id="fig:Figure7-2"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-2-1.png" alt="(ref:fig7-2)" width="576" />
 <p class="caption">
-Figure 4.2: (ref:fig7-2)
+Figure 7.2: (ref:fig7-2)
 </p>
 </div>
 <p>Along with getting the idea that regression models define normal
@@ -369,7 +381,7 @@ of each estimator around its
 true value. This variability leads to the potential variability in estimated
 regression lines (think of a suite of potential estimated regression lines that
 would be created by different random samples from the same population).
-Figure <a href="chapter7.html#fig:Figure7-3">4.3</a> contains the true regression line (bold, red)
+Figure <a href="chapter7.html#fig:Figure7-3">7.3</a> contains the true regression line (bold, red)
 and realizations of the
 estimated regression line in simulated data based on results similar to the
 real data set. This variability due to random sampling is something that needs to be
@@ -383,14 +395,14 @@ variation. Light grey lines are simulated realizations assuming the bold (red) l
 <div class="figure"><span id="fig:Figure7-3"></span>
 <img src="chapter7_files/image034.png" alt="(ref:fig7-3)" width="557" />
 <p class="caption">
-Figure 4.3: (ref:fig7-3)
+Figure 7.3: (ref:fig7-3)
 </p>
 </div>
 
 
 </div>
 <div id="section7-2" class="section level2">
-<h2><span class="header-section-number">4.2</span> Confidence interval and hypothesis tests for the slope and intercept</h2>
+<h2><span class="header-section-number">7.2</span> Confidence interval and hypothesis tests for the slope and intercept</h2>
 
 <p>Our inference techniques will resemble previous material with an
 interest in forming confidence intervals and
@@ -415,7 +427,7 @@ that is almost always of interest is for the true slope coefficient,
 The slope confidence interval is used to do two
 things: (1) inference for the amount of change in the mean of <span class="math inline">\(y\)</span> for a unit
 change in <span class="math inline">\(x\)</span> in the population and (2) to potentially do hypothesis testing by
-checking whether 0 is in the CI or not. The sketch in Figure <a href="chapter7.html#fig:Figure7-4">4.4</a>
+checking whether 0 is in the CI or not. The sketch in Figure <a href="chapter7.html#fig:Figure7-4">7.4</a>
 illustrates the roles of the
 CI for the slope in terms of determining where the population slope coefficient
 might be – centered at the sample slope coefficient – our best guess for the
@@ -426,7 +438,7 @@ coefficient for a 1 unit increase in <span class="math inline">\(x\)</span>.</p>
 <div class="figure"><span id="fig:Figure7-4"></span>
 <img src="chapter7_files/image045.png" alt="(ref:fig7-4)" width="210" />
 <p class="caption">
-Figure 4.4: (ref:fig7-4)
+Figure 7.4: (ref:fig7-4)
 </p>
 </div>
 <blockquote>
@@ -449,7 +461,7 @@ the true mean of <strong><em>Y</em></strong> will be between <strong>LL</strong>
 <p>This is really only interesting if the value of <span class="math inline">\(x=0\)</span> is interesting –
 we’ll see a method for generating CIs
 for the true mean at potentially more interesting values of <span class="math inline">\(x\)</span> in
-Section <a href="chapter7.html#section7-7">4.7</a>. To trust the results from these
+Section <a href="chapter7.html#section7-7">7.7</a>. To trust the results from these
 confidence intervals, all the regression validity conditions need to be met (or
 at least close to met). </p>
 <p>The only hypothesis test of interest in this situation is for the slope
@@ -611,7 +623,7 @@ regression models is to be at the right level for the slope to “work” to mak
 line that describes the responses and thus is usually of lesser interest.</p>
 <p>As a second example, we can revisit modeling the <em>Hematocrit</em> of female
 Australian athletes as a function of <em>body fat %</em>. The sample size is <span class="math inline">\(n=99\)</span>
-so the <em>df</em> are 97 in the analysis. In Chapter <a href="chapter6.html#chapter6">3</a>, the
+so the <em>df</em> are 97 in the analysis. In Chapter <a href="chapter6.html#chapter6">6</a>, the
 relationship between <em>Hematocrit</em> and <em>body fat %</em> for females appeared to
 be a weak negative linear
 association. The 95% confidence interval for the slope is -0.187 to 0.0155. For
@@ -758,7 +770,7 @@ model built using <em>Temperature</em> explains 66.2% of the variation in yearly
 <em>log(Hectares) burned</em> so this model explains quite a bit but not all the variation in the responses.</p>
 </div>
 <div id="section7-3" class="section level2">
-<h2><span class="header-section-number">4.3</span> Bozeman temperature trend</h2>
+<h2><span class="header-section-number">7.3</span> Bozeman temperature trend</h2>
 <p>For a new example, consider the yearly average maximum temperatures in Bozeman, MT.
 For over 100 years, daily measurements have been taken of the minimum and
 maximum temperatures at hundreds of weather stations across the US. In early
@@ -800,10 +812,10 @@ Bozeman from 1900 to 2014 with SLR (solid) and smoothing (dashed) lines.</p>
 <div class="figure"><span id="fig:Figure7-5"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-5-1.png" alt="(ref:fig7-5)" width="960" />
 <p class="caption">
-Figure 4.5: (ref:fig7-5)
+Figure 7.5: (ref:fig7-5)
 </p>
 </div>
-<p>The scatterplot in Figure <a href="chapter7.html#fig:Figure7-5">4.5</a> shows the results between
+<p>The scatterplot in Figure <a href="chapter7.html#fig:Figure7-5">7.5</a> shows the results between
 1901 and 2014 based on a sample of <span class="math inline">\(n=109\)</span> years because four years had too
 many missing months to fairly include in the responses. Missing values occur
 for many reasons and in
@@ -860,7 +872,7 @@ reasonably correct even in the presence of some autocorrelation.</li>
 </ul></li>
 </ul>
 <p>To assess the remaining conditions, we need to fit the regression model and use
-the diagnostic plots in Figure <a href="chapter7.html#fig:Figure7-6">4.6</a> to aid our assessment:</p>
+the diagnostic plots in Figure <a href="chapter7.html#fig:Figure7-6">7.6</a> to aid our assessment:</p>
 
 <pre class="sourceCode r"><code class="sourceCode r">temp1 &lt;-<span class="st"> </span><span class="kw">lm</span>(meanmax<span class="op">~</span>Year, <span class="dt">data=</span>bozemantemps)
 <span class="kw">par</span>(<span class="dt">mfrow=</span><span class="kw">c</span>(<span class="dv">2</span>,<span class="dv">2</span>))
@@ -868,7 +880,7 @@ the diagnostic plots in Figure <a href="chapter7.html#fig:Figure7-6">4.6</a> to 
 <div class="figure"><span id="fig:Figure7-6"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-6-1.png" alt="Diagnostic plots of the Bozeman yearly temperature simple linear regression model." width="960" />
 <p class="caption">
-Figure 4.6: Diagnostic plots of the Bozeman yearly temperature simple linear regression model.
+Figure 7.6: Diagnostic plots of the Bozeman yearly temperature simple linear regression model.
 </p>
 </div>
 <ul>
@@ -1048,7 +1060,7 @@ onset using more sophisticated statistical models. The main point here is to
 <strong>be careful when using simple statistical methods repeatedly if you are
 not accounting for the number of tests performed</strong><a href="#fn85" class="footnote-ref" id="fnref85"><sup>85</sup></a>.</p>
 <p>Along with the confidence interval, we can also plot the estimated model
-(Figure <a href="chapter7.html#fig:Figure7-7">4.7</a>) using a term-plot from the <code>effects</code> package
+(Figure <a href="chapter7.html#fig:Figure7-7">7.7</a>) using a term-plot from the <code>effects</code> package
 (Fox, 2003). This is the same function we used for visualizing results
 in the ANOVA models and in its basic application you just need
 <code>plot(allEffects(MODELNAME))</code> although we enhanced our version a little.
@@ -1071,7 +1083,7 @@ in each year.</p>
 <div class="figure"><span id="fig:Figure7-7"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-7-1.png" alt="(ref:fig7-7)" width="576" />
 <p class="caption">
-Figure 4.7: (ref:fig7-7)
+Figure 7.7: (ref:fig7-7)
 </p>
 </div>
 <p>If we extended the plot for the model to <code>Year</code> = 0, we could see the
@@ -1096,7 +1108,7 @@ has changed dramatically with a 95% CI from 51.72<span class="math inline">\(^\c
 for <code>Year2</code>=0. But we know that <code>Year2</code> has a 0 value for 1901 because
 of our subtraction. That means that this CI is
 for the true mean in 1901 and is now at least somewhat interesting. If you
-revisit Figure <a href="chapter7.html#fig:Figure7-7">4.7</a> you will actually see that the displayed
+revisit Figure <a href="chapter7.html#fig:Figure7-7">7.7</a> you will actually see that the displayed
 confidence intervals
 provide upper and lower bounds that match this result for 1901 – the
 y-intercept CI matches the 95% CI for the true mean.</p>
@@ -1128,11 +1140,11 @@ with a small p-value. If any of these are not the case, then we are
 not completely satisfied with the regression and <strong>should be suspicious
 of any inference we perform</strong>. We can sometimes resolve some of the
 systematic issues noted above using <strong><em>transformations</em></strong>, discussed in
-Sections <a href="chapter7.html#section7-5">4.5</a> and <a href="chapter7.html#section7-6">4.6</a>.
+Sections <a href="chapter7.html#section7-5">7.5</a> and <a href="chapter7.html#section7-6">7.6</a>.
 </p>
 </div>
 <div id="section7-4" class="section level2">
-<h2><span class="header-section-number">4.4</span> Randomizing inferences for the slope coefficient</h2>
+<h2><span class="header-section-number">7.4</span> Randomizing inferences for the slope coefficient</h2>
 <p>Exploring permutation testing in SLR provides an opportunity to gauge the observed
 relationship against the sorts of relationships we would expect to see if there
 was no linear relationship between the variables. If the relationship is linear
@@ -1142,7 +1154,7 @@ predictor variable’s values is as good as any other.
 
 Consider the four scatterplots of
 the Bozeman temperature data versus <code>Year</code> and permuted versions of <code>Year</code>
-in Figure <a href="chapter7.html#fig:Figure7-7">4.7</a>. First, think about which of the panels you
+in Figure <a href="chapter7.html#fig:Figure7-7">7.7</a>. First, think about which of the panels you
 think present the most
 evidence of a linear relationship between <code>Year</code> and <code>Temperature</code>?</p>
 <p>(ref:fig7-8) Plot of the <code>Temperature</code> responses versus four versions of
@@ -1151,7 +1163,7 @@ to the Temperatures.</p>
 <div class="figure"><span id="fig:Figure7-8"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-8-1.png" alt="(ref:fig7-8)" width="768" />
 <p class="caption">
-Figure 4.8: (ref:fig7-8)
+Figure 7.8: (ref:fig7-8)
 </p>
 </div>
 <p>Hopefully you can see that panel (c) contains the most clear linear
@@ -1172,7 +1184,7 @@ the slope coefficient and would provide the same p-values but the sampling
 distribution would have a
 different x-axis scaling. In this situation, the observed slope of 0.052 is
 really far from any possible values that can be obtained using permutations as
-shown in Figure <a href="chapter7.html#fig:Figure7-9">4.9</a>. The p-value would be reported as
+shown in Figure <a href="chapter7.html#fig:Figure7-9">7.9</a>. The p-value would be reported as
 <span class="math inline">\(&lt;0.0001\)</span> for the two-sided permutation test.</p>
 <pre class="sourceCode r"><code class="sourceCode r">Tobs &lt;-<span class="st"> </span><span class="kw">lm</span>(meanmax<span class="op">~</span>Year, <span class="dt">data=</span>bozemantemps)<span class="op">$</span>coef[<span class="dv">2</span>]
 Tobs</code></pre>
@@ -1196,11 +1208,11 @@ Bozeman temperature linear regression model with bold vertical lines at
 <div class="figure"><span id="fig:Figure7-9"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-9-1.png" alt="(ref:fig7-9)" width="960" />
 <p class="caption">
-Figure 4.9: (ref:fig7-9)
+Figure 7.9: (ref:fig7-9)
 </p>
 </div>
 <p>One other interesting aspect of exploring the permuted data sets as in
-Figure <a href="chapter7.html#fig:Figure7-8">4.8</a> is that the outlier
+Figure <a href="chapter7.html#fig:Figure7-8">7.8</a> is that the outlier
 in the late 1930s “disappears” in the permuted data sets because there were
 many other observations that were that warm, just none that happened around
 that time of the century in the real data set. This reinforces the evidence for
@@ -1221,10 +1233,10 @@ And the previous scatterplots show what the
 coefficients but are not completely comfortable with the normality assumption,
 it is also possible to generate bootstrap confidence intervals by sampling with
 replacement from the data set. This idea was introduced in
-Sections <a href="acknowledgments.html#section2-8">0.7</a> and <a href="acknowledgments.html#section2-9">0.8</a>. This provides a 95%
+Sections <a href="chapter2.html#section2-8">2.8</a> and <a href="chapter2.html#section2-9">2.9</a>. This provides a 95%
 bootstrap confidence interval from 0.433 to 0.62,
 which almost exactly matches the parametric <span class="math inline">\(t\)</span>-based confidence interval. The
-bootstrap distributions are very symmetric (Figure <a href="chapter7.html#fig:Figure7-10">4.10</a>).
+bootstrap distributions are very symmetric (Figure <a href="chapter7.html#fig:Figure7-10">7.10</a>).
 The interpretation is
 the same and this result reinforces the other assessments that the parametric
 approach is not unreasonable except possibly for the independence assumption. These randomization approaches provide no robustness against violations of the independence assumption. </p>
@@ -1255,12 +1267,12 @@ quantiles</code></pre>
 <div class="figure"><span id="fig:Figure7-10"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-10-1.png" alt="(ref:fig7-10)" width="960" />
 <p class="caption">
-Figure 4.10: (ref:fig7-10)
+Figure 7.10: (ref:fig7-10)
 </p>
 </div>
 </div>
 <div id="section7-5" class="section level2">
-<h2><span class="header-section-number">4.5</span> Transformations part I: Linearizing relationships</h2>
+<h2><span class="header-section-number">7.5</span> Transformations part I: Linearizing relationships</h2>
 <p>When the influential point, linearity, constant variance and/or normality
 assumptions are violated, we cannot trust any of the inferences generated by the
 regression model. The violations occur on gradients from minor to really major
@@ -1291,7 +1303,7 @@ the <code>Year</code> variable to have <code>Year2</code> start at 0 and go up t
 also apply a linear transformation to change Temperature from being measured in
 <span class="math inline">\(^\circ F\)</span> to <span class="math inline">\(^\circ C\)</span> using <span class="math inline">\(^\circ C=[^\circ F - 32] *(5/9)\)</span>. The
 scatterplots on both the original and transformed scales are provided in
-Figure <a href="chapter7.html#fig:Figure7-11">4.11</a>. All the
+Figure <a href="chapter7.html#fig:Figure7-11">7.11</a>. All the
 coefficients in the regression model and the labels on the axes change, but the
 “picture” is still the same. Additionally, all the inferences remain the same –
 and p-values are unchanged by linear transformations. So linear transformations
@@ -1306,7 +1318,7 @@ and <em>Temperature</em> (<span class="math inline">\(^\circ C\)</span>) vs <em>
 <div class="figure"><span id="fig:Figure7-11"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-11-1.png" alt="(ref:fig7-11)" width="960" />
 <p class="caption">
-Figure 4.11: (ref:fig7-11)
+Figure 7.11: (ref:fig7-11)
 </p>
 </div>
 
@@ -1357,7 +1369,7 @@ interesting things can happen to our linear models and their problems.
 
 Some
 examples of transformations that are at least occasionally used for transforming
-the response variable are provided in Table <a href="chapter7.html#tab:Table7-1">4.1</a>, ranging from taking
+the response variable are provided in Table <a href="chapter7.html#tab:Table7-1">7.1</a>, ranging from taking
 <span class="math inline">\(y\)</span> to different powers from <span class="math inline">\(y^{-2}\)</span> to <span class="math inline">\(y^2\)</span>. Typical transformations used in statistical
 modeling exist along a gradient of powers of the response variable, defined as <span class="math inline">\(y^{\lambda}\)</span>
 with <span class="math inline">\(\boldsymbol{\lambda}\)</span> being the power of the transformation of the response
@@ -1368,13 +1380,13 @@ transformations are all nonlinear functions of <span class="math inline">\(y\)</
 <div class="figure"><span id="fig:Figure7-12"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-12-1.png" alt="(ref:fig7-12)" width="960" />
 <p class="caption">
-Figure 4.12: (ref:fig7-12)
+Figure 7.12: (ref:fig7-12)
 </p>
 </div>
 <p>(ref:tab7-1) Ladder of powers of transformations that are often used in statistical
 modeling.</p>
 <table>
-<caption><span id="tab:Table7-1">Table 4.1: </span> (ref:tab7-1)</caption>
+<caption><span id="tab:Table7-1">Table 7.1: </span> (ref:tab7-1)</caption>
 <colgroup>
 <col width="13%" />
 <col width="34%" />
@@ -1441,7 +1453,7 @@ earthquake size (Richter scale), the measurements are already on logarithmic
 scales.</p>
 <p>Actually, we have already analyzed data that benefited from a
 <strong><em>log-transformation</em></strong> – the <em>log-area burned</em> vs. <em>summer temperature</em>
-data for Montana. Figure <a href="chapter7.html#fig:Figure7-12">4.12</a> compares the
+data for Montana. Figure <a href="chapter7.html#fig:Figure7-12">7.12</a> compares the
 relationship between these variables on the original hectares scale and the
 log-hectares scale.</p>
 
@@ -1450,7 +1462,7 @@ log-hectares scale.</p>
      <span class="dt">ylab=</span><span class="st">&quot;Hectares&quot;</span>, <span class="dt">pch=</span><span class="dv">16</span>)
 <span class="kw">plot</span>(loghectares<span class="op">~</span>Temperature, <span class="dt">data=</span>mtfires, <span class="dt">main=</span><span class="st">&quot;(b)&quot;</span>,
      <span class="dt">ylab=</span><span class="st">&quot;log-Hectares&quot;</span>, <span class="dt">pch=</span><span class="dv">16</span>)</code></pre>
-<p>Figure <a href="chapter7.html#fig:Figure7-12">4.12</a>(a) displays a relationship
+<p>Figure <a href="chapter7.html#fig:Figure7-12">7.12</a>(a) displays a relationship
 that would be hard fit using SLR – it has a curve and the
 variance is increasing with increasing temperatures. With a
 log-transformation of <em>Hectares</em>, the relationship appears to be relatively
@@ -1463,8 +1475,8 @@ relationships, in fact
 in some situations it can make the relationship more nonlinear. For example,
 reconsider the relationship between tree diameter and tree height, which
 contained some curvature that we could not account for in an SLR.
-Figure <a href="chapter7.html#fig:Figure7-13">4.13</a> shows
-the original version of the variables and Figure <a href="chapter7.html#fig:Figure7-14">4.14</a>
+Figure <a href="chapter7.html#fig:Figure7-13">7.13</a> shows
+the original version of the variables and Figure <a href="chapter7.html#fig:Figure7-14">7.14</a>
 shows the same
 information with the response variable (height) log-transformed.
 
@@ -1481,10 +1493,10 @@ ufc &lt;-<span class="st"> </span><span class="kw">as.tibble</span>(ufc)
 <div class="figure"><span id="fig:Figure7-13"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-13-1.png" alt="Scatterplot of tree height versus tree diameter." width="576" />
 <p class="caption">
-Figure 4.13: Scatterplot of tree height versus tree diameter.
+Figure 7.13: Scatterplot of tree height versus tree diameter.
 </p>
 </div>
-<p>Figure <a href="chapter7.html#fig:Figure7-14">4.14</a> with the log-transformed response seems
+<p>Figure <a href="chapter7.html#fig:Figure7-14">7.14</a> with the log-transformed response seems
 to show a more nonlinear relationship and may even have more
 issues with non-constant variance. This example shows that log-transforming
 the response variable cannot fix all problems, even though I’ve seen some
@@ -1495,14 +1507,14 @@ situation worse.</p>
 <div class="figure"><span id="fig:Figure7-14"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-14-1.png" alt="Scatterplot of log(tree height) versus tree diameter." width="576" />
 <p class="caption">
-Figure 4.14: Scatterplot of log(tree height) versus tree diameter.
+Figure 7.14: Scatterplot of log(tree height) versus tree diameter.
 </p>
 </div>
 <p>All is not lost in this situation, we can consider two other potential
 uses of the log-transformation
 and see if they can “fix” the relationship up a bit. One option is to apply the
 transformation to the explanatory variable (<code>y~log(x)</code>), displayed in
-Figure <a href="chapter7.html#fig:Figure7-15">4.15</a>. If the distribution of the explanatory
+Figure <a href="chapter7.html#fig:Figure7-15">7.15</a>. If the distribution of the explanatory
 variable is right skewed (see the boxplot on
 the x-axis), then consider log-transforming the explanatory variable. This will
 often reduce the leverage of those most extreme observations which can be
@@ -1514,26 +1526,26 @@ the original scale.</p>
 <div class="figure"><span id="fig:Figure7-15"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-15-1.png" alt="Scatterplot of tree height versus log(tree diameter)." width="576" />
 <p class="caption">
-Figure 4.15: Scatterplot of tree height versus log(tree diameter).
+Figure 7.15: Scatterplot of tree height versus log(tree diameter).
 </p>
 </div>
 <p>The other option, especially when everything else fails, is to apply the
 log-transformation to
 both the explanatory and response variables (<code>log(y)~log(x)</code>), as
-displayed in Figure <a href="chapter7.html#fig:Figure7-16">4.16</a>. For this example, the
+displayed in Figure <a href="chapter7.html#fig:Figure7-16">7.16</a>. For this example, the
 transformation seems to be better than the first two options
 (none and only <span class="math inline">\(\log(y)\)</span>), but demonstrates some decreasing variability with
 larger <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> values. It has also created a new and different curve in the
 relationship. In the end, we might prefer to fit an SLR model to the
 tree <em>height</em> vs <em>log(diameter)</em> versions of the variables
-(Figure <a href="chapter7.html#fig:Figure7-15">4.15</a>).</p>
+(Figure <a href="chapter7.html#fig:Figure7-15">7.15</a>).</p>
 
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">scatterplot</span>(<span class="kw">log</span>(height.m)<span class="op">~</span><span class="kw">log</span>(dbh.cm), <span class="dt">data=</span>ufc[<span class="op">-</span><span class="dv">168</span>,], <span class="dt">smooth=</span><span class="kw">list</span>(<span class="dt">spread=</span>F),
             <span class="dt">main=</span><span class="st">&quot;log-Tree height vs log-tree diameter&quot;</span>)</code></pre>
 <div class="figure"><span id="fig:Figure7-16"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-16-1.png" alt="Scatterplot of log(tree height) versus log(tree diameter)." width="576" />
 <p class="caption">
-Figure 4.16: Scatterplot of log(tree height) versus log(tree diameter).
+Figure 7.16: Scatterplot of log(tree height) versus log(tree diameter).
 </p>
 </div>
 <p>Economists also like to use <span class="math inline">\(\log(y)\sim \log(x)\)</span> transformations. The
@@ -1553,7 +1565,7 @@ from <span class="math inline">\(n=207\)</span> countries. These data are availa
 (<span class="citation">Fox, Weisberg, and Price (<a href="#ref-R-carData" role="doc-biblioref">2018</a><a href="#ref-R-carData" role="doc-biblioref">b</a>)</span>, <span class="citation">Fox (<a href="#ref-Fox2003" role="doc-biblioref">2003</a>)</span>) in a data set called <code>UN</code>.
 
 The four panels in
-Figure <a href="chapter7.html#fig:Figure7-17">4.17</a> show the original relationship and the impacts of
+Figure <a href="chapter7.html#fig:Figure7-17">7.17</a> show the original relationship and the impacts of
 log-transforming one or both variables.
 The only scatterplot that could potentially be modeled using SLR is the lower
 right panel (d) that shows the relationship between <em>log(infant mortality)</em>
@@ -1565,7 +1577,7 @@ different combinations of log-transformations.</p>
 <div class="figure"><span id="fig:Figure7-17"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-17-1.png" alt="(ref:fig7-17)" width="960" />
 <p class="caption">
-Figure 4.17: (ref:fig7-17)
+Figure 7.17: (ref:fig7-17)
 </p>
 </div>
 <p>Almost all nonlinear transformations assume that the variables are strictly
@@ -1586,7 +1598,7 @@ regression model to a data set with NaNs (not a number) and/or
 <p>Sometimes the log-transformations will not be entirely successful. If the
 relationship is <strong><em>monotonic</em></strong> (strictly positive or strictly negative
 but not both), then possibly another stop
-on the ladder of transformations in Table <a href="chapter7.html#tab:Table7-1">4.1</a> might work.
+on the ladder of transformations in Table <a href="chapter7.html#tab:Table7-1">7.1</a> might work.
 If the relationship
 is not monotonic, then it may be better to consider a more complex regression
 model that can accommodate the shape in the relationship or to split the data
@@ -1620,7 +1632,7 @@ defaulted to different bases.</p>
 
 </div>
 <div id="section7-6" class="section level2">
-<h2><span class="header-section-number">4.6</span> Transformations part II: Impacts on SLR interpretations: log(y), log(x), &amp; both log(y) &amp; log(x)</h2>
+<h2><span class="header-section-number">7.6</span> Transformations part II: Impacts on SLR interpretations: log(y), log(x), &amp; both log(y) &amp; log(x)</h2>
 
 <p>The previous attempts to linearize relationships imply a desire to be
 able to fit SLR models.
@@ -1648,7 +1660,7 @@ If we exponentiate<a href="#fn88" class="footnote-ref" id="fnref88"><sup>88</sup
 <div class="figure"><span id="fig:Figure7-18"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-18-1.png" alt="(ref:fig7-18)" width="960" />
 <p class="caption">
-Figure 4.18: (ref:fig7-18)
+Figure 7.18: (ref:fig7-18)
 </p>
 </div>
 <ul>
@@ -1718,7 +1730,7 @@ these ideas can be used in applications.</p>
 <span class="math inline">\(\log(\widehat{\text{hectares}})=-69.8+1.39\cdot\text{ Temp}\)</span>. On the
 original scale, this implies that the model is
 <span class="math inline">\(\widehat{\text{hectares}}=\exp(-69.8)\exp(1.39\text{ Temp})\)</span>.
-Figure <a href="chapter7.html#fig:Figure7-18">4.18</a> provides the <span class="math inline">\(\log(y)\)</span> scale version of
+Figure <a href="chapter7.html#fig:Figure7-18">7.18</a> provides the <span class="math inline">\(\log(y)\)</span> scale version of
 the model and the model transformed to the
 original scale of measurement. On the log-hectares scale, the interpretation of
 the slope is: For a 1<span class="math inline">\(^\circ F\)</span> increase in summer temperature, we
@@ -1778,7 +1790,7 @@ infant mortality data.</p>
 <div class="figure"><span id="fig:Figure7-19"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-19-1.png" alt="(ref:fig7-19)" width="960" />
 <p class="caption">
-Figure 4.19: (ref:fig7-19)
+Figure 7.19: (ref:fig7-19)
 </p>
 </div>
 <p>While it is not a perfect model (no model is), let’s consider the model
@@ -1792,7 +1804,7 @@ second interpretation is on the original GDP scale: For a doubling of GDP, we
 expect infant mortality to change, on average, by <span class="math inline">\(-16.6\log(2) = -11.51\)</span>
 deaths/1000 live births. Or, the mean infant mortality is reduced by
 11.51 deaths per 1000 live births for each doubling of
-GDP. Both versions of the model are displayed in Figure <a href="chapter7.html#fig:Figure7-19">4.19</a>
+GDP. Both versions of the model are displayed in Figure <a href="chapter7.html#fig:Figure7-19">7.19</a>
 – one on the scale
 the SLR model was fit (panel a) and the other on the original x-scale (panel b)
 that matches these last interpretations.</p>
@@ -1820,7 +1832,7 @@ that matches these last interpretations.</p>
 <pre><code>## [1] -11.50624</code></pre>
 <p>It appears that our model does not fit too well and that there might be
 some non-constant variance so we
-should check the diagnostic plots (available in Figure <a href="chapter7.html#fig:Figure7-20">4.20</a>)
+should check the diagnostic plots (available in Figure <a href="chapter7.html#fig:Figure7-20">7.20</a>)
 before we trust
 any of those previous interpretations.</p>
 <p>(ref:fig7-20) Diagnostics plots of the infant mortality model with
@@ -1830,7 +1842,7 @@ log(GDP).</p>
 <div class="figure"><span id="fig:Figure7-20"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-20-1.png" alt="(ref:fig7-20)" width="960" />
 <p class="caption">
-Figure 4.20: (ref:fig7-20)
+Figure 7.20: (ref:fig7-20)
 </p>
 </div>
 <p>There appear to be issues with outliers and a long right tail violating
@@ -1867,7 +1879,7 @@ mortality data.</p>
 <div class="figure"><span id="fig:Figure7-21"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-21-1.png" alt="(ref:fig7-21)" width="576" />
 <p class="caption">
-Figure 4.21: (ref:fig7-21)
+Figure 7.21: (ref:fig7-21)
 </p>
 </div>
 <p>So other than <span class="math inline">\(\log(\beta_0)\)</span> in the model, this looks just like our
@@ -1906,7 +1918,7 @@ of <span class="math inline">\(2^{b_1}\)</span>.</p>
 <p>Let’s apply this idea to the GDP and infant mortality data where a
 <span class="math inline">\(\log(x) \sim \log(y)\)</span> transformation
 actually made the resulting relationship look like it might be close to meeting the SLR
-assumptions. The regression line in Figure <a href="chapter7.html#fig:Figure7-21">4.21</a> actually looks
+assumptions. The regression line in Figure <a href="chapter7.html#fig:Figure7-21">7.21</a> actually looks
 pretty good on both
 the estimated log-log scale (panel a) and on the original scale (panel b) as it
 captures the severe nonlinearity in the relationship between the two variables.</p>
@@ -1914,7 +1926,7 @@ captures the severe nonlinearity in the relationship between the two variables.<
 <div class="figure"><span id="fig:Figure7-22"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-22-1.png" alt="Diagnostic plots for the log-log infant mortality model." width="960" />
 <p class="caption">
-Figure 4.22: Diagnostic plots for the log-log infant mortality model.
+Figure 7.22: Diagnostic plots for the log-log infant mortality model.
 </p>
 </div>
 <pre class="sourceCode r"><code class="sourceCode r">ID2 &lt;-<span class="st"> </span><span class="kw">lm</span>(<span class="kw">log</span>(infantMortality)<span class="op">~</span><span class="kw">log</span>(ppgdp), <span class="dt">data=</span>UN)
@@ -1948,27 +1960,27 @@ a change of <span class="math inline">\(-0.493\)</span> log(deaths/1000 live bir
 That is a 28.95%
 decrease in the median <em>infant mortality</em> for each doubling of <em>GDP</em>.</p></li>
 </ol>
-<p>The diagnostics of the log-log SLR model (Figure <a href="chapter7.html#fig:Figure7-22">4.22</a>)
+<p>The diagnostics of the log-log SLR model (Figure <a href="chapter7.html#fig:Figure7-22">7.22</a>)
 show minimal evidence of violations of assumptions although the tails of
 the residuals are a little heavy (more spread out than a normal distribution)
 and there might still be a little pattern remaining in the residuals vs fitted values.
 
 There are no influential points to be concerned about in this situation.</p>
 <p>While we will not revisit this at all except in the case-studies
-in Chapter <a href="chapter9.html#chapter9">6</a>,
+in Chapter <a href="chapter9.html#chapter9">9</a>,
 log-transformations can be applied to the response variable in ONE and TWO-WAY
 ANOVA models when we are concerned about non-constant variance and
 non-normality issues<a href="#fn89" class="footnote-ref" id="fnref89"><sup>89</sup></a>. The remaining methods in this chapter return to SLR and assuming
-that the model assumptions have been met. In fact, the methods in Section <a href="chapter7.html#section7-7">4.7</a>
+that the model assumptions have been met. In fact, the methods in Section <a href="chapter7.html#section7-7">7.7</a>
 are some of the most sensitive results to violations of the assumptions that we
 will explore.</p>
 
 
 </div>
 <div id="section7-7" class="section level2">
-<h2><span class="header-section-number">4.7</span> Confidence interval for the mean and prediction intervals for a new observation</h2>
+<h2><span class="header-section-number">7.7</span> Confidence interval for the mean and prediction intervals for a new observation</h2>
 
-<p>Figure <a href="chapter7.html#fig:Figure7-7">4.7</a> provided a term-plot of the estimated
+<p>Figure <a href="chapter7.html#fig:Figure7-7">7.7</a> provided a term-plot of the estimated
 regression line and a shaded area surrounding
 the estimated regression equation. Those shaded areas are based on connecting
 the dots on 95% confidence intervals constructed for the true mean <span class="math inline">\(y\)</span> value
@@ -2167,7 +2179,7 @@ and 95% prediction (lighter, dotted lines) intervals.</p>
 <div class="figure"><span id="fig:Figure7-23"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-23-1.png" alt="(ref:fig7-23)" width="960" />
 <p class="caption">
-Figure 4.23: (ref:fig7-23)
+Figure 7.23: (ref:fig7-23)
 </p>
 </div>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mfrow=</span><span class="kw">c</span>(<span class="dv">1</span>,<span class="dv">1</span>))
@@ -2180,7 +2192,7 @@ Figure 4.23: (ref:fig7-23)
 <span class="kw">lines</span>(beerf, BBPI<span class="op">$</span>upr, <span class="dt">col=</span><span class="st">&quot;grey&quot;</span>, <span class="dt">lty=</span><span class="dv">3</span>, <span class="dt">lwd=</span><span class="dv">3</span>)
 <span class="kw">legend</span>(<span class="st">&quot;topleft&quot;</span>, <span class="kw">c</span>(<span class="st">&quot;Estimate&quot;</span>,<span class="st">&quot;CI&quot;</span>,<span class="st">&quot;PI&quot;</span>), <span class="dt">lwd=</span><span class="dv">3</span>, <span class="dt">lty=</span><span class="kw">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>),
        <span class="dt">col =</span> <span class="kw">c</span>(<span class="st">&quot;blue&quot;</span>,<span class="st">&quot;red&quot;</span>,<span class="st">&quot;grey&quot;</span>))</code></pre>
-<p>More importantly, note that the CI in Figure <a href="chapter7.html#fig:Figure7-23">4.23</a> clearly
+<p>More importantly, note that the CI in Figure <a href="chapter7.html#fig:Figure7-23">7.23</a> clearly
 shows widening as we move further away from the mean of the
 <span class="math inline">\(x\text{&#39;s}\)</span> to the edges of the observed x-values. This reflects a decrease
 in knowledge of the true mean as we move away from the mean of the
@@ -2189,7 +2201,7 @@ also is widening slightly but not as clearly in this situation. The difference
 in widths in the two types of intervals becomes extremely clear when they are
 displayed together.</p>
 <p>Similarly, the 95% CI and PIs for the Bozeman yearly average maximum
-temperatures in Figure <a href="chapter7.html#fig:Figure7-24">4.24</a> provide
+temperatures in Figure <a href="chapter7.html#fig:Figure7-24">7.24</a> provide
 interesting information on the uncertainty in the estimated mean temperature
 over time. It is also interesting to explore how many of the observations fall
 within the 95% prediction intervals. The PIs are for new observations, but you
@@ -2203,7 +2215,7 @@ more than 95% of the observations used to make it.</p>
 <div class="figure"><span id="fig:Figure7-24"></span>
 <img src="07-simpleLinearRegressionInference_files/figure-html/Figure7-24-1.png" alt="(ref:fig7-24)" width="960" />
 <p class="caption">
-Figure 4.24: (ref:fig7-24)
+Figure 7.24: (ref:fig7-24)
 </p>
 </div>
 <p>We can also use these same methods to do a prediction for the year after the
@@ -2238,7 +2250,7 @@ of extrapolation.</p>
 
 </div>
 <div id="section7-8" class="section level2">
-<h2><span class="header-section-number">4.8</span> Chapter summary</h2>
+<h2><span class="header-section-number">7.8</span> Chapter summary</h2>
 <p>In this chapter, we raised our SLR modeling to a new level, considering
 inference techniques for relationships between two quantitative variables. The next
 chapter will build on these same techniques but add in additional explanatory
@@ -2258,8 +2270,8 @@ completely new initially but it actually contains very little new material,
 just more complicated models that use the same concepts. There will be a
 couple of new issues to consider for MLR and we’ll need to learn how to work
 with categorical variables in a regression setting – but we actually fit
-linear models with categorical variables in Chapters <a href="#chapter3"><strong>??</strong></a> and
-<a href="chapter4.html#chapter4">1</a> so that isn’t actually completely new either.</p>
+linear models with categorical variables in Chapters <a href="chapter3.html#chapter3">3</a> and
+<a href="chapter4.html#chapter4">4</a> so that isn’t actually completely new either.</p>
 <p>SLR is a simple (thus its name) tool for analyzing the relationship
 between two
 quantitative variables. It contains assumptions about the estimated regression
@@ -2279,7 +2291,7 @@ the results are being interpreted on.</p>
 
 </div>
 <div id="section7-9" class="section level2">
-<h2><span class="header-section-number">4.9</span> Summary of important R code</h2>
+<h2><span class="header-section-number">7.9</span> Summary of important R code</h2>
 <p>The main components of the R code used in this chapter follow with the
 components to modify in lighter and/or ALL CAPS text where <code>y</code> is a response variable, <code>x</code> is an
 explanatory variable, and the data are in <code>DATASETNAME</code>.</p>
@@ -2302,7 +2314,7 @@ nonlinear relationships.
 <li><p><strong>summary(<font color='red'>MODELNAME</font>)</strong></p>
 <ul>
 <li>Provides parameter estimates and R-squared (used heavily in
-Chapter <a href="chapter8.html#chapter8">5</a> as well).
+Chapter <a href="chapter8.html#chapter8">8</a> as well).
 </li>
 </ul></li>
 <li><p><strong>par(mfrow=c(2, 2)); plot(<font color='red'>MODELNAME</font>)</strong></p>
@@ -2357,11 +2369,11 @@ by the sample size – 2.
 
 </div>
 <div id="section7-10" class="section level2">
-<h2><span class="header-section-number">4.10</span> Practice problems</h2>
+<h2><span class="header-section-number">7.10</span> Practice problems</h2>
 <p>We will continue with the treadmill data set introduced in Chapter
-<a href="#chapter1"><strong>??</strong></a> and the SLR fit in the practice problems in
-Chapter <a href="chapter6.html#chapter6">3</a>. The following code will get you back to where we
-stopped at the end of Chapter <a href="chapter6.html#chapter6">3</a>:</p>
+<a href="chapter1.html#chapter1">1</a> and the SLR fit in the practice problems in
+Chapter <a href="chapter6.html#chapter6">6</a>. The following code will get you back to where we
+stopped at the end of Chapter <a href="chapter6.html#chapter6">6</a>:</p>
 <pre class="sourceCode r"><code class="sourceCode r">treadmill &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;http://www.math.montana.edu/courses/s217/documents/treadmill.csv&quot;</span>)
 <span class="kw">plot</span>(TreadMillOx<span class="op">~</span>RunTime, <span class="dt">data=</span>treadmill)
 tm &lt;-<span class="st"> </span><span class="kw">lm</span>(TreadMillOx<span class="op">~</span>RunTime, <span class="dt">data=</span>treadmill)
@@ -2383,7 +2395,7 @@ prediction intervals for run times of 11 and 16 minutes.</p>
 <p>7.6. Compare the width of either set of CIs and PIs – why are they different?
 For the two different predictions, why are the intervals wider for 16 minutes
 than for 11 minutes?</p>
-<p>7.7. The Residuals vs Fitted plot considered in Chapter <a href="chapter6.html#chapter6">3</a> should
+<p>7.7. The Residuals vs Fitted plot considered in Chapter <a href="chapter6.html#chapter6">6</a> should
 have suggested slight non-constant variance and maybe a little missed
 nonlinearity. Perform a log-transformation of the treadmill oxygen response
 variable and re-fit the SLR model. Remake the diagnostic plots and discuss
@@ -2457,7 +2469,7 @@ were actually analyzed. Our results only ever apply to the range of x-values we
 had available so this is a relatively minor change.<a href="chapter7.html#fnref87" class="footnote-back">↩</a></p></li>
 <li id="fn88"><p>Note <code>exp(x)</code> is the same as <span class="math inline">\(e^{(x)}\)</span> but easier
 to read in-line and <code>exp()</code> is the R function name to execute this calculation.<a href="chapter7.html#fnref88" class="footnote-back">↩</a></p></li>
-<li id="fn89"><p>This transformation could not be applied directly to the education growth score data in Chapter <a href="chapter5.html#chapter5">2</a> because there were negative “growth” scores.<a href="chapter7.html#fnref89" class="footnote-back">↩</a></p></li>
+<li id="fn89"><p>This transformation could not be applied directly to the education growth score data in Chapter <a href="chapter5.html#chapter5">5</a> because there were negative “growth” scores.<a href="chapter7.html#fnref89" class="footnote-back">↩</a></p></li>
 <li id="fn90"><p>This silly
 nomenclature was inspired by <span class="citation">De Veaux, Velleman, and Bock (<a href="#ref-DeVeaux2011" role="doc-biblioref">2011</a>)</span> <em>Stats: Data and
 Models</em> text. If you find this too cheesy, you can just call it x-vee.<a href="chapter7.html#fnref90" class="footnote-back">↩</a></p></li>
